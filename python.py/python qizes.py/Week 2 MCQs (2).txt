@@ -1,0 +1,560 @@
+View Question Bank
+1 	Correct Ans : B	Added By : fc15074	September 5, 2023, 10:17 am	Edit
+Which of the following is not used as variables in Python?
+ 
+
+A. cash
+B. ca$h
+C. total123
+D. total_123
+
+
+
+2 	Correct Ans : A	Added By : fc15074	September 6, 2023, 2:45 pm	Edit
+Which of the output of the following?
+ 
+
+a = True
+b = False
+c = False
+ 
+if a or b and c:
+   print ("PSIT")
+else:
+   print ("PSIT KANPUR")
+ 
+a.  PSIT
+
+b. PSIT KANPUR
+
+c. KANPUR
+
+d. None
+
+
+
+3 	Correct Ans : D	Added By : fc15074	September 5, 2023, 10:20 am	Edit
+What will be the output of the following program on execution?
+
+a=0
+
+b=5
+
+x=(a&b)|(a&a)|(a|b)
+
+print("x")
+
+A. 1
+B. 5
+C. 0
+D. None of the above
+
+
+
+4 	Correct Ans : B	Added By : fc15074	September 5, 2023, 10:21 am	Edit
+What will be the output of the following program on execution?
+
+if False:
+
+	print ("inside if block")
+
+elif True:
+
+	print ("inside elif block")
+
+else:
+
+	print ("inside else block")
+
+A. inside if block
+B. inside elif block
+C. inside else block
+D. Error
+
+
+
+5 	Correct Ans : A	Added By : fc15074	September 6, 2023, 2:39 pm	Edit
+What will be the output of the following code:
+ 
+a = 4.5
+b = 2
+print (a//b)
+ 
+a. 2.0
+b. 3.2
+c. 2
+d None of the above
+ 
+
+
+6 	Correct Ans : B	Added By : fc15074	September 5, 2023, 10:22 am	Edit
+Which of the following statements are correct?
+(i) Python is a high level programming language.
+(ii) Python is an interpreted language.
+(iii) Python is a compiled language.
+(iv) Python program is compiled before it is interpreted.
+
+A. i, ii
+B. i, iv
+C. ii, iii
+D. ii, iv
+
+
+
+7 	Correct Ans : B	Added By : fc15074	September 5, 2023, 10:22 am	Edit
+Which of the given options has same output as given statement?
+
+If var1=7
+
+var2=5
+
+var3=1
+
+var4=10
+
+var5=20
+
+(var1*var2)>(var5+var4*var3) and ((var5+var3)/var1)>=(var2-2)/var3
+
+A. (var5/var4)>var3 and (var3*var2)>=(var1*var3)
+B. (var5-var4)*var2
+C. (var4/var2)>var1 and (var1*3)/var3
+D. (var1/var3)>var4 or var5*2==var4
+
+
+
+8 	Correct Ans : C	Added By : fc15074	September 5, 2023, 10:24 am	Edit
+Which of the following is incorrect variable name in Python?
+
+A. variable_1
+B. variable1
+C. 1variable
+D. _variable
+
+
+
+9 	Correct Ans : D	Added By : fc15074	September 5, 2023, 10:25 am	Edit
+What will be the result of following Python code snippet after execution?
+
+a=0
+
+b=1
+
+if (a and b):
+
+    print("hi")
+
+elif(not(a)):
+
+    print("hello")
+
+elif(b):
+
+    print("hi world")
+
+else:
+
+    print("hello world")
+
+A. hello world
+B. hi
+C. hi world
+D. hello
+
+
+
+10 	Correct Ans : A	Added By : fc15074	September 4, 2023, 12:10 pm	Edit
+Which one of the following is a valid Python if statement:
+ 
+
+A. if a>=2:
+B. if (a >= 2)
+C. if (a => 22)
+D. if a >= 22
+
+ 
+
+
+
+11 	Correct Ans : C	Added By : fc15074	September 4, 2023, 12:10 pm	Edit
+What keyword would you use to add an alternative condition to an if statement?
+ 
+
+A. else if
+B. elseif
+C. elif
+D. None of the above
+
+ 
+
+
+
+12 	Correct Ans : A	Added By : fc15074	September 4, 2023, 12:11 pm	Edit
+Can we write if/else into one line in python?
+ 
+
+A. Yes
+B. No
+C. if/else not used in python
+D. None of the above
+
+ 
+
+
+
+13 	Correct Ans : B	Added By : fc15074	September 4, 2023, 12:11 pm	Edit
+In a Python program, a control structure:
+ 
+
+A. Defines program-specific data structures
+B. Directs the order of execution of the statements in the program
+C. Dictates what happens before the program starts and after it terminates
+D. None of the above
+
+ 
+
+
+
+14 	Correct Ans : D	Added By : fc15074	September 5, 2023, 10:31 am	Edit
+Which of the following is false about identifiers?
+ 
+
+A. Alphabet Symbols (Either Upper case OR Lower case)
+
+B. If Identifier is start with Underscore (_) then it indicates it is private.
+
+C. Identifier should not start with Digits.
+
+D. None of the above
+
+ 
+
+
+
+15 	Correct Ans : D	Added By : fc15074	September 5, 2023, 10:33 am	Edit
+Which of the following is a true about identifiers in Python?
+ 
+
+A. Identifiers are case sensitive.
+
+B. We cannot use reserved words as identifiers. eg.def=10 
+
+C. There is no length limit for Python identifiers. But not recommended to use too lengthy identifiers.
+
+D. All of the above
+
+ 
+
+
+
+16 	Correct Ans : C	Added By : fc15074	September 6, 2023, 2:43 pm	Edit
+What will be the result of following Python code snippet after execution?
+
+a = True
+
+b = False
+
+c = False
+ 
+if not a or b:
+   print (1)
+elif not a or not b and c:
+   print (2)
+elif not a or b or not b and a:
+   print (3)
+else:
+  print (4)
+ 
+a. 1
+b. 2
+c. 3
+d. 4
+ 
+
+
+
+17 	Correct Ans : A	Added By : fc15074	September 5, 2023, 10:35 am	Edit
+Which of the following are in correct order with respect to conditional statements in Python?
+(i) if
+(ii) else
+(iii) elif
+
+A. i, iii, ii
+B. ii, iii ,i
+C. iii, ii, i
+D. ii, i, iii
+
+
+
+18 	Correct Ans : A	Added By : fc15074	September 5, 2023, 10:35 am	Edit
+Which of the following two will give the same result?
+(i) 42//2
+(ii) 21%6
+(iii) 12/4
+(iv) 11*2
+
+A. ii,iii
+B. i, iii
+C. ii, iv
+D. iii, iv
+
+
+
+19 	Correct Ans : B	Added By : fc15074	September 5, 2023, 10:36 am	Edit
+Suppose we have two sets A & B, then A < B is:
+
+A. True if len(A) is less than len(B).
+B. True if A is a proper subset of B.
+C. True if the elements in A when compared are less than the elements in B.
+D. True if A is a proper superset of B.
+
+
+
+20 	Correct Ans : C	Added By : fc15074	September 5, 2023, 10:37 am	Edit
+Which one of the following is correct way of declaring and initialising a variable, x with value 5?
+
+A. int x
+     x=5
+B. int x=5
+C. x=5
+D. declare x=5
+
+
+
+21 	Correct Ans : C	Added By : fc15074	September 5, 2023, 10:37 am	Edit
+Which one is false regarding local variables?
+
+A. These can be accessed only inside owning function
+B. Any changes made to local variables does not reflect outside the function.
+C. These remain in memory till the program ends
+D. None of the above
+
+
+
+22 	Correct Ans : A	Added By : fc15074	September 5, 2023, 10:38 am	Edit
+Which one is false regarding global variables?
+
+A. Global variables can only be read inside the function declaring the variable as global inside the function.
+B. Global variables remain in memory till the end of the program
+C. Global variables are those which are declared in global scope.
+D. None of the above
+
+
+
+23 	Correct Ans : D	Added By : fc15074	September 5, 2023, 10:38 am	Edit
+How many local and global variables are there in the following Python code?
+
+var1=5
+
+def fn():
+
+	var1=2
+
+	var2=var1+5
+
+var1=10
+
+fn()
+
+A. 1 local, 1 global variables
+B. 1 local, 2 global variables
+C. 2 local, 1 global variables
+D. 2 local, 2 global variables
+
+
+
+24 	Correct Ans : C	Added By : fc15074	September 5, 2023, 10:39 am	Edit
+What will be the value of variable y after execution of following Python code?
+
+x="55"
+
+y=x + str(9)
+
+A. 64
+B. 9
+C. 559
+D. Error
+
+
+
+25 	Correct Ans : B	Added By : fc15074	September 5, 2023, 10:39 am	Edit
+Which of the following will give error?
+
+A. a=b=c=1
+B. a,b,c=1
+C. a,b,c=1, python, 1.5
+D. None of the above
+
+
+
+26 	Correct Ans : B	Added By : fc15074	September 6, 2023, 2:15 pm	Edit
+ Which of the following declarations is incorrect in python language?
+a. xyzp = 5,000,000
+b. x y z p = 5000 6000 7000 8000
+c. x,y,z,p = 5000, 6000, 7000, 8000
+d. x_y_z_p = 5,000,000
+
+ 
+
+
+
+27 	Correct Ans : B	Added By : fc15074	September 6, 2023, 2:17 pm	Edit
+Which one of the following has the same precedence level?
+a. Division, Power, Multiplication, Addition and Subtraction
+b. Division and Multiplication
+c. Subtraction and Division
+d. Power and Division
+
+
+
+28 	Correct Ans : C	Added By : fc15074	September 6, 2023, 2:16 pm	Edit
+Which of the following words cannot be a variable in python language?
+a. _val
+b. val
+c. try
+d. _try_
+
+
+
+29 	Correct Ans : A	Added By : fc15074	September 6, 2023, 2:16 pm	Edit
+Which of the following precedence order is correct in Python?
+a. Parentheses, Exponential, Multiplication, Division, Addition, Subtraction
+b. Multiplication, Division, Addition, Subtraction, Parentheses, Exponential
+c. Division, Multiplication, Addition, Subtraction, Parentheses, Exponential
+d. Exponential, Parentheses, Multiplication, Division, Addition, Subtraction
+
+
+
+30 	Correct Ans : B	Added By : fc15074	September 6, 2023, 2:18 pm	Edit
+Which of the following functions is a built-in function in python language?
+a. val()
+b. print()
+c. print()
+d. None of these
+
+
+
+31 	Correct Ans : C	Added By : fc15074	September 4, 2023, 12:22 pm	Edit
+In which language Python is written?
+
+ 
+
+C++
+FORTRAN
+C
+COBOL
+ 
+
+
+
+32 	Correct Ans : C	Added By : fc15074	September 4, 2023, 12:22 pm	Edit
+Python interpreter in interactive mode is known as ______ .
+
+ 
+
+Python Script
+Python Bash
+Python Shell
+Both 1 and 3
+ 
+
+
+
+33 	Correct Ans : C	Added By : fc15074	September 4, 2023, 12:23 pm	Edit
+How to write a multiline comment in Python?
+
+ 
+
+A.    /* This is a comment */Python Bash
+
+B.    //** This is a comment **//
+
+C.   ''' This is a comment '''
+
+D.    None of the above.
+
+
+
+34 	Correct Ans : A	Added By : fc15074	September 4, 2023, 12:24 pm	Edit
+Why are local variable names beginning with underscore discouraged?
+ 
+
+They are used to indicate a private variable of a class.
+They are used to indicate global variables.
+They are immutable.
+None of the above.
+ 
+
+
+
+35 	Correct Ans : B	Added By : fc15074	September 4, 2023, 12:24 pm	Edit
+How to evaluate XY in Python?
+
+ 
+
+X^Y
+X**Y
+X>>Y
+X~Y
+ 
+
+
+
+36 	Correct Ans : B	Added By : fc15074	September 4, 2023, 12:24 pm	Edit
+What is the output of 3*4**3*5 in Python?
+
+ 
+
+A.    180
+
+B.    960
+
+C.   8640
+
+D.    An error will be raised
+
+
+
+37 	Correct Ans : B	Added By : fc15074	September 6, 2023, 2:21 pm	Edit
+Study the following statement:
+>>>”a”+”bc”
+What will be the output of this statement?
+a. a+bc
+b. abc
+c. a bc
+d. a
+
+
+
+38 	Correct Ans : A	Added By : fc15074	September 4, 2023, 12:25 pm	Edit
+What is the main difference between <= and <<= ?
+
+ 
+
+<= is a Comparison Operator whereas <<= is an Assignment Operator.
+<<= is a Comparison Operator whereas <= is an Assignment Operator.
+<= is a Fat Arrow used in function and <<= is an Assignment Operator.
+None of the above.
+ 
+
+
+
+39 	Correct Ans : A	Added By : fc15074	September 6, 2023, 2:22 pm	Edit
+if (-3) will evaluate to_______.
+
+True
+False
+Error.
+None of the above.
+ 
+
+
+
+40 	Correct Ans : D	Added By : fc15074	September 6, 2023, 2:20 pm	Edit
+Study the following function:
+round(4.576)
+What will be the output of this function?
+a. 4
+b. 5
+c. 576
+d. 5
